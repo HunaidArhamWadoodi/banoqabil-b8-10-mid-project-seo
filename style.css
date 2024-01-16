@@ -1,0 +1,202 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 100px;
+}
+a{color: #fff;
+
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.custom-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  height: 40px;
+  width:40px ;
+}
+.custom-flex {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-flex li {
+  margin: 0 15px;
+}
+
+.nav-btn {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-col {
+  flex: 1;
+  text-align: left;
+}
+
+.logo-size{
+  width: 300px !important;
+  height: 70px !important;
+}
+
+.logo-img{
+  width: 270px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.caro-div{
+  height: 400px !important;
+  width: 100% !important;
+}
+
+.caro-height{
+  height: 400px !important;
+  width: inherit !important;
+  object-fit: contain !important;
+}
+
+/* cards code  */
+.card {
+  margin: 2rem 1rem 2rem 1rem;
+  border: none;
+  border-radius: 0px;
+  box-shadow: -2px 1px 8px 1px lightgrey; 
+}
+
+.portfolio-card__image {
+  max-height: 13rem;
+}
+
+.portfolio-card__title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.portfolio-card__category {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.portfolio-card__category__offices {
+  color: red;
+}
+
+.portfolio-card__category__industrial {
+  color: blue;
+}
+
+.portfolio-card__category__retail {
+  color: green;
+}
+
+.portfolio-card__text {
+  font-family: 'Abel', sans-serif;
+  font-size: 1rem;
+}
+
+.portfolio-card__stage {
+  color: white;
+  text-transform: uppercase;
+  padding: 6px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.portfolio-card__stage__icon {
+  margin-right: 5px;
+}
+
+.portfolio-card__stage__complete {
+  background-color: green;
+}
+
+.portfolio-card__stage__construction {
+  background-color: red;
+}
+
+.portfolio-card__stage__planning {
+  background-color: lightblue;
+}
+
+.portfolio-card__link {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: grey;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.portfolio-card__link:hover {
+  color: black;
+}
+/* cards code end */
+
+.folio{
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 2rem 0rem;
+}
+
+.headings{
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 2rem 0rem;
+}
+
+
+
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .custom-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-flex li {
+    margin: 10px 0;
+  }
+
+  .footer-grid {
+    justify-content: center;
+  }
+}
